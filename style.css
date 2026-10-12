@@ -1,0 +1,35 @@
+/* Penyesuaian kecil di atas Bootstrap 5 */
+:root {
+  --bs-primary: #0f6b5c;
+  --bs-primary-rgb: 15, 107, 92;
+  --warm: #c9791a;
+}
+html { scroll-behavior: smooth; }
+section { scroll-margin-top: 70px; }
+
+.btn-primary {
+  --bs-btn-bg: #0f6b5c;
+  --bs-btn-border-color: #0f6b5c;
+  --bs-btn-hover-bg: #0a4d42;
+  --bs-btn-hover-border-color: #0a4d42;
+  --bs-btn-active-bg: #0a4d42;
+  --bs-btn-active-border-color: #0a4d42;
+}
+.btn-outline-primary {
+  --bs-btn-color: #0f6b5c;
+  --bs-btn-border-color: #0f6b5c;
+  --bs-btn-hover-bg: #0f6b5c;
+  --bs-btn-hover-border-color: #0f6b5c;
+}
+.navbar { background-color: #0f6b5c; }
+
+.foto-profil {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid var(--warm);
+}
+.judul-seksi { color: #0f6b5c; font-weight: 800; }
+.garis { width: 60px; height: 4px; background: var(--warm); border-radius: 2px; margin-bottom: 1.5rem; }
+.card { transition: transform .2s; }
+.card:hover { transform: translateY(-4px); }
